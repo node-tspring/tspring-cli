@@ -1,0 +1,27 @@
+{
+  "name": "@tspring/cli",
+  "version": "0.1.0",
+  "description": "@tspring/cli",
+  "main": "index.js",
+  "bin": {
+    "tspring": "bin/tspring.js"
+  },
+  "files": ["bin", "command", "template", "index.js"],
+  "scripts": {
+    "ts-node": "ts-node"
+  },
+  "author": "vaniship@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.0.0",
+    "lodash": "^4.17.15",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
+    "@types/lodash": "^4.14.153",
+    "@types/yargs": "^15.0.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
